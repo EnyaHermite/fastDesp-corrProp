@@ -6,6 +6,3 @@ the functions such as pcread, pcdownsample are still
 supported. If there is something wrong in your use of 
 the ransac.mex64 file, please re-mex the ransac.cpp on 
 your machine to make it compatible.
-
-For other problems while using the code, please
-contact Huan LEI by hlei.ziyan@gmail.com.
