@@ -8,4 +8,4 @@ the ransac.mex64 file, please re-mex the ransac.cpp on
 your machine to make it compatible.
 
 For other problems while using the code, please
-contact Dr. Guang JIANG by gjiang@mail.xidian.edu.cn.
+contact Huan LEI by hlei.ziyan@gmail.com.
