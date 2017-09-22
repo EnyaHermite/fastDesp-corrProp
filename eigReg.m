@@ -5,7 +5,7 @@ function [T,src2tarEst] = eigReg(srcCloud,tarCloud,overlap,gridStep,Rho)
 %This code should be used only for academic research.
 %any other useage of this code should not be allowed without Author agreement.
 % If you have any problem or improvement idea about this code, please
-% contact with Guang JIANG, Xidian University. gjiang@mail.xidian.edu.cn.
+% contact Huan LEI with hlei.ziyan@gmail.com.
 
 %% parameter configuration for flann search
 params.algorithm = 'kdtree';
