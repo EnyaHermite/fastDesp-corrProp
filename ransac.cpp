@@ -69,7 +69,7 @@ double* estimateTform(double* srcPts, double* tarPts, vector<int> &Idx)
 
 
 void mexFunction(int nlhs, mxArray *plhs[],
-	int nrhs, mxArray *prhs[])
+	int nrhs, const mxArray *prhs[])
 {
 	double *srcPts, *tarPts, threshold;
 
