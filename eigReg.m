@@ -1,4 +1,4 @@
-function [T,src2tarEst] = eigReg(srcCloud,tarCloud,overlap,gridStep)
+function [T,src2tarEst] = eigReg(srcCloud,tarCloud,overlap,gridStep,Rho)
 %This code is the Matlab implimentation of the paper, 
 %"Fast Descriptors and Correspondence Propagation for Robust Global Point Cloud Registration,"
 %IEEE transactions on Image Processing, 2017.
@@ -16,8 +16,8 @@ srcData = srcCloud.Location';
 tarData = tarCloud.Location';
 radii = (0.5:0.5:2)*gridStep;
 
-srcCloudDown = pcdownsample(srcCloud, 'gridAverage', gridStep);
-tarCloudDown = pcdownsample(tarCloud, 'gridAverage', gridStep);
+srcCloudDown = pcdownsample(srcCloud, 'gridAverage', Rho);
+tarCloudDown = pcdownsample(tarCloud, 'gridAverage', Rho);
 srcSeed = srcCloudDown.Location';
 tarSeed = tarCloudDown.Location';
 
